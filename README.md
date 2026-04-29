@@ -11,11 +11,11 @@ Free, high-quality Quran audio files for developers and Islamic apps. Served via
 
 ### ✨ Features
 
-- 🎵 **Multiple reciters** - Choose your favorite qari
-- 📦 **CDN powered** - Blazing fast delivery worldwide
-- 🔄 **Versioned releases** - Never break your production apps
-- 💰 **Completely free** - No API keys, no limits
-- 🇪🇹 **Amharic ready** - Perfect for Ethiopian Quran apps
+- **Multiple reciters** - Choose your favorite qari
+- **CDN powered** - Blazing fast delivery worldwide
+- **Versioned releases** - Never break your production apps
+- **Completely free** - No API keys, no limits
+- **Amharic ready** - Perfect for Ethiopian Quran apps
 
 ## 🎧 Available Reciters
 
@@ -164,11 +164,11 @@ done
 
 | Reciter        | Total Files | Total Size | Complete |
 | -------------- | ----------- | ---------- | -------- |
-| mishari-rashid | 6,236       | 2.4GB      | ✅       |
-| abdul-basit    | 6,236       | 1.8GB      | ✅       |
-| saad-al-ghamdi | 6,116       | 2.1GB      | ⚠️       |
-| al-afasy       | 6,236       | 650MB      | ✅       |
-| sudais         | 6,236       | 1.9GB      | ✅       |
+| mishari-rashid | 6,236       | 2.4GB      | yes      |
+| abdul-basit    | 6,236       | 1.8GB      | yes      |
+| saad-al-ghamdi | 6,236       | 2.1GB      | yes      |
+| al-afasy       | 6,236       | 650MB      | yes      |
+| sudais         | 6,236       | 1.9GB      | yes      |
 | **Total**      | **31,060**  | **8.85GB** | -        |
 
 ## 🤝 Contributing
@@ -198,10 +198,10 @@ This repository contains **public domain Quranic recitations**. All audio files 
 
 ## ❤️ Support
 
-- 🇪🇹 **Ethiopian users**: Use `al-afasy` reciter for best performance
-- 🐛 **Issues**: Open a GitHub issue
-- 💬 **Questions**: Discussions tab
-- 🌟 **Star this repo** if you find it useful!
+- **Ethiopian users**: Use `al-afasy` reciter for best performance
+- **Issues**: Open a GitHub issue
+- **Questions**: Discussions tab
+- **Star this repo** if you find it useful!
 
 ## 🕌 Recommended Reciters for Ethiopian Users
 
