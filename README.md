@@ -2,7 +2,7 @@
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/mfeti/quran-audio/badge)](https://www.jsdelivr.com/package/gh/mfeti/quran-audio)
 [![GitHub release](https://img.shields.io/github/v/release/mfeti/quran-audio)](https://github.com/mfeti/quran-audio/releases)
-[![GitHub license](https://img.shields.io/github/license/mfeti/quran-audio)](https://github.com/mfeti/quran-audio/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Ethiopia 🇪🇹](https://img.shields.io/badge/🌍-Ethiopia_Ready-12a8ff)](https://github.com/mfeti/quran-audio)
 
 ## 📖 About
