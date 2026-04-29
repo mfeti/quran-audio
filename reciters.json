@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15",
+  "repository": "https://github.com/mfeti/quran-audio",
+  "cdn": {
+    "primary": "https://cdn.jsdelivr.net/gh/mfeti/quran-audio",
+    "pattern": "https://cdn.jsdelivr.net/gh/mfeti/quran-audio@{version}/{reciterId}/{surahId}/{ayahId}.mp3",
+    "versioning": true
+  },
+  "reciters": [
+    {
+      "id": "saad-al-ghamdi",
+      "name": "Saad Al-Ghamdi",
+      "arabicName": "سعد الغامدي",
+      "alternateNames": [
+        "Saad Al Ghamdi",
+        "Sa'ud Al-Ghamdi",
+        "Saood Al-Shuraim"
+      ],
+      "slug": "saad-al-ghamdi",
+      "status": "active",
+      "style": "Murattal",
+      "bio": {
+        "en": "Saudi qari known for his clear, melodious recitation and emotional delivery. Born in 1967 in Dammam, Saudi Arabia.",
+        "ar": "قارئ سعودي معروف بتلاوته الواضحة واللحنية والعاطفية. ولد عام 1967 في الدمام، المملكة العربية السعودية."
+      },
+      "quality": {
+        "bitrate": "128kbps",
+        "sampleRate": "44.1kHz",
+        "format": "MP3",
+        "encoder": "LAME 3.100"
+      },
+      "totalSurahs": 113,
+      "totalAyahs": "Calculating",
+      "totalSize": "2.1GB",
+      "isComplete": false,
+      "missingSurahs": [],
+      "partialSurahs": [],
+      "metadataStructure": {
+        "hasIndexJson": true,
+        "indexFormat": "surah-specific",
+        "filesPerSurah": "varies"
+      },
+      "priority": 1,
+      "recommendedFor": ["highSpeed", "wifi", "desktop", "studio"],
+      "features": {
+        "hasMetadata": true,
+        "hasFileSizes": true,
+        "hasVerseCount": true
+      },
+      "statistics": {
+        "totalFiles": 3116,
+        "averageFileSizeKB": 45.2,
+        "largestSurah": 2,
+        "smallestSurah": 108
+      },
+      "source": {
+        "originalSource": "EveryAyah.com",
+        "license": "Public Domain",
+        "retrievedDate": "2024-01-15"
+      }
+    }
+  ],
+  "futureReciters": [
+    {
+      "id": "mishari-rashid",
+      "name": "Mishari Rashid Al-Afasy",
+      "arabicName": "مشاري راشد العفاسي",
+      "status": "planned",
+      "expectedQuality": "192kbps",
+      "eta": "Q2 2024",
+      "priority": 2
+    },
+    {
+      "id": "abdul-basit",
+      "name": "Abdul Basit Abdus Samad",
+      "arabicName": "عبد الباسط عبد الصمد",
+      "status": "planned",
+      "expectedQuality": "128kbps",
+      "eta": "Q2 2024",
+      "priority": 3
+    },
+    {
+      "id": "al-afasy-mobile",
+      "name": "Al-Afasy (Mobile Optimized)",
+      "arabicName": "العفاسي (للجوال)",
+      "status": "planned",
+      "expectedQuality": "48kbps",
+      "eta": "Q3 2024",
+      "priority": 4,
+      "notes": "Optimized for Ethiopian mobile networks"
+    },
+    {
+      "id": "sudais",
+      "name": "Abdur Rahman As-Sudais",
+      "arabicName": "عبد الرحمن السديس",
+      "status": "planned",
+      "expectedQuality": "128kbps",
+      "eta": "Q3 2024",
+      "priority": 5
+    },
+    {
+      "id": "maher-al-mueaqly",
+      "name": "Maher Al-Mueaqly",
+      "arabicName": "ماهر المعيقلي",
+      "status": "planned",
+      "expectedQuality": "192kbps",
+      "eta": "Q4 2024",
+      "priority": 6
+    }
+  ],
+  "stats": {
+    "totalReciters": 1,
+    "activeReciters": 1,
+    "plannedReciters": 5,
+    "totalFiles": 3116,
+    "totalSizeGB": 2.1,
+    "lastSync": "2024-01-15T10:30:00Z"
+  },
+  "instructions": {
+    "toAddNewReciter": {
+      "step1": "Create folder with reciter ID (lowercase, hyphens for spaces)",
+      "step2": "Add surah folders (001-114) with MP3 files",
+      "step3": "Optional: Add index.json for metadata (see saad-al-ghamdi example)",
+      "step4": "Update this reciters.json file with new reciter info",
+      "step5": "Create GitHub release with new version tag"
+    },
+    "fileNaming": {
+      "surahFolders": "001, 002, 003... (3 digits, no leading zeros issues)",
+      "ayahFiles": "001.mp3, 002.mp3... (3 digits)",
+      "indexJson": "Optional - store metadata per surah"
+    }
+  },
+  "api": {
+    "getAudioUrl": "https://cdn.jsdelivr.net/gh/mfeti/quran-audio@v1.0.0/{reciter}/{surah}/{ayah}.mp3",
+    "getMetadata": "https://cdn.jsdelivr.net/gh/mfeti/quran-audio@v1.0.0/{reciter}/{surah}/index.json",
+    "example": "https://cdn.jsdelivr.net/gh/mfeti/quran-audio@v1.0.0/saad-al-ghamdi/001/index.json"
+  },
+  "notes": {
+    "ethiopiaOptimization": "For Ethiopian users, recommend lower bitrate reciter (coming soon: al-afasy-mobile)",
+    "cdnNote": "Always use version tags in production. Never use @latest",
+    "fileSizes": "File sizes from index.json are in KB. Divide by 1024 for MB"
+  },
+  "changeLog": [
+    {
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "changes": [
+        "Initial release with Saad Al-Ghamdi reciter",
+        "Added comprehensive metadata structure",
+        "Set up CDN configuration"
+      ]
+    }
+  ]
+}
