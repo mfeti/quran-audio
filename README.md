@@ -1,8 +1,8 @@
 # 🎙️ Quran Audio Collection - Multi-Reciter CDN
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/YOUR_USERNAME/quran-audio/badge)](https://www.jsdelivr.com/package/gh/mfeti/quran-audio)
-[![GitHub release](https://img.shields.io/github/v/release/YOUR_USERNAME/quran-audio)](https://github.com/mfeti/quran-audio/releases)
-[![GitHub license](https://img.shields.io/github/license/YOUR_USERNAME/quran-audio)](https://github.com/mfeti/quran-audio/blob/main/LICENSE)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/mfeti/quran-audio/badge)](https://www.jsdelivr.com/package/gh/mfeti/quran-audio)
+[![GitHub release](https://img.shields.io/github/v/release/mfeti/quran-audio)](https://github.com/mfeti/quran-audio/releases)
+[![GitHub license](https://img.shields.io/github/license/mfeti/quran-audio)](https://github.com/mfeti/quran-audio/blob/main/LICENSE)
 [![Ethiopia 🇪🇹](https://img.shields.io/badge/🌍-Ethiopia_Ready-12a8ff)](https://github.com/mfeti/quran-audio)
 
 ## 📖 About
